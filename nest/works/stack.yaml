@@ -1,4 +1,4 @@
-# docker service rm lanl0rd_w0rks_js_nest || true && docker stack deploy -c $HOME/w0rks/nest/stack.yaml --resolve-image=never lanl0rd_w0rks_js
+# docker service rm lanl0rd_w0rks_js_nest || true && docker stack deploy -c $(pwd)/stack.yaml --resolve-image=never lanl0rd_w0rks_js
 
 version: '3.7'
 
@@ -13,7 +13,7 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - $HOME/w0rks/nest/works:/app
+      - $(pwd):/app
       - /var/run/docker.sock:/var/run/docker.sock:ro
     working_dir: /app
     command: sh -c "npm i && npm run start:dev"

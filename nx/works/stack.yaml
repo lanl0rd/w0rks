@@ -1,10 +1,10 @@
-# docker service rm lanl0rd_w0rks_js_nx || true && docker stack deploy -c $HOME/w0rks/nx/stack.yaml --resolve-image=never lanl0rd_w0rks_js
+# docker service rm lanl0rd_w0rks_js_nest || true && docker stack deploy -c $HOME/w0rks/nest/stack.yaml --resolve-image=never lanl0rd_w0rks_js
 
 version: '3.7'
 
 services:
 
-  nx:
+  nest:
     image: lanl0rd/js
     deploy:
       replicas: 1
@@ -12,9 +12,9 @@ services:
         constraints: [node.role == manager]
     ports:
       - "3000:3000"
+      - "4200:4200"
     volumes:
       - $HOME/w0rks/nx/works:/app
       - /var/run/docker.sock:/var/run/docker.sock:ro
     working_dir: /app
-    # command: sh -c "npm i && npm run start:dev"
     command: tail -f /dev/null
