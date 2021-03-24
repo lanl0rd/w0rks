@@ -139,7 +139,8 @@ npm i --save --no-optional jsonwebtoken
 npm i --save --no-optional lodash
 npm i --save --no-optional moment
 npm i --save --no-optional remarkable
-
+npm i stripe
+npm i uuid
 
 npm i --save-dev --no-optional @types/passport-local
 npm i --save-dev --no-optional @types/passport-jwt

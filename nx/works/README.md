@@ -92,3 +92,104 @@ Nx Cloud pairs with Nx in order to enable you to build and test code more rapidl
 Teams using Nx gain the advantage of building full-stack applications with their preferred framework alongside Nx’s advanced code generation and project dependency graph, plus a unified experience for both frontend and backend developers.
 
 Visit [Nx Cloud](https://nx.app/) to learn more.
+
+
+
+npm install --save-dev @nrwl/react
+npm install --save-dev @nrwl/web
+npm install --save-dev @nrwl/angular
+npm install --save-dev @nrwl/nest
+npm install --save-dev @nrwl/express
+npm install --save-dev @nrwl/node
+
+npm i @nguniversal/express-engine
+npm i @angular/localize
+npm i @angular/pwa
+npm i @angular/material
+npm i --save --no-optional socket.io-client
+npm i --save --no-optional joi
+npm i --save --no-optional dotenv
+npm i --save --no-optional moment
+npm i --save --no-optional remarkable
+npm i --save --no-optional lodash
+npm i --save-dev --no-optional @types/lodash
+npm install --save-dev https-proxy-agent
+npm i three
+npm i postprocessing
+npm i uuid
+
+npm i --save --no-optional @nestjs/passport 
+npm i --save --no-optional passport 
+npm i --save --no-optional passport-local 
+npm i --save --no-optional bcrypt 
+npm i --save --no-optional @nestjs/jwt 
+npm i --save --no-optional passport-jwt 
+npm i --save --no-optional helmet 
+npm i --save --no-optional fastify-helmet 
+npm i --save --no-optional csurf 
+npm i --save --no-optional fastify-csrf 
+npm i --save --no-optional express-rate-limit 
+npm i --save --no-optional @nestjs/config 
+npm i --save --no-optional js-yaml 
+npm i --save --no-optional joi 
+npm i --save --no-optional cache-manager 
+npm i --save --no-optional @nestjs/schedule 
+npm i --save --no-optional @nestjs/websockets 
+npm i --save --no-optional @nestjs/platform-socket.io 
+npm i --save --no-optional socket.io-redis 
+npm i --save --no-optional @nestjs/platform-ws 
+npm i --save --no-optional @nestjs/microservices 
+npm i --save --no-optional cookie-parser 
+npm i --save --no-optional @nestjs/event-emitter 
+npm i --save --no-optional compression 
+npm i --save --no-optional express-session 
+npm i --save --no-optional hbs 
+npm i --save --no-optional class-validator 
+npm i --save --no-optional class-transformer 
+npm i --save --no-optional body-parser 
+npm i --save --no-optional cors
+npm i --save --no-optional @nestjs/serve-static 
+npm i --save --no-optional @nestjs/bull 
+npm i --save --no-optional bull 
+npm i --save --no-optional webpack-node-externals 
+npm i --save --no-optional start-server-webpack-plugin 
+npm i --save --no-optional @nestjs/terminus 
+npm i --save --no-optional @nestjs/cqrs 
+npm i --save --no-optional @nestjs/mongoose 
+npm i --save --no-optional mongoose 
+npm i --save --no-optional @nestjs/swagger 
+npm i --save --no-optional swagger-ui-express 
+npm i --save --no-optional redis 
+npm i --save --no-optional mqtt 
+npm i --save --no-optional kafkajs 
+npm i --save --no-optional nats 
+npm i --save --no-optional @prisma/client 
+npm i --save --no-optional @nestjs/platform-fastify 
+npm i --save --no-optional fastify-compress 
+npm i --save --no-optional fastify-cookie 
+npm i --save --no-optional fastify-secure-session 
+npm i --save --no-optional fastify-swagger 
+npm i --save --no-optional @grpc/proto-loader 
+npm i --save --no-optional @grpc/grpc-js 
+npm i --save --no-optional qrcode
+npm i --save --no-optional speakeasy
+npm i --save --no-optional nodemailer
+npm i --save --no-optional jsonwebtoken
+npm i --save --no-optional lodash
+npm i --save --no-optional moment
+npm i --save --no-optional remarkable
+npm i stripe
+npm i uuid
+
+npm i --save-dev --no-optional @types/passport-local
+npm i --save-dev --no-optional @types/passport-jwt
+npm i --save-dev --no-optional @types/bcrypt
+npm i --save-dev --no-optional @types/mongoose
+npm i --save-dev --no-optional @types/js-yaml
+npm i --save-dev --no-optional @types/joi
+npm i --save-dev --no-optional @types/cache-manager
+npm i --save-dev --no-optional @types/bull
+npm i --save-dev --no-optional @types/cookie-parser
+npm i --save-dev --no-optional @types/express-session
+npm i --save-dev --no-optional @nestjs/testing
+npm i --save-dev --no-optional @types/socket.io

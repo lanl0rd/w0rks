@@ -49,6 +49,9 @@ npm i --save --no-optional remarkable
 npm i --save --no-optional lodash
 npm i --save-dev --no-optional @types/lodash
 npm install --save-dev https-proxy-agent
+npm i three
+npm i postprocessing
+npm i uuid
 
 files:
 tsconfig.json ("resolveJsonModule": true, "allowSyntheticDefaultImports": true)

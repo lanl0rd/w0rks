@@ -86,8 +86,9 @@
     "socket.io-redis": "^6.0.1",
     "speakeasy": "^2.0.0",
     "start-server-webpack-plugin": "^2.2.5",
-    "stripe": "^8.138.0",
+    "stripe": "^8.139.0",
     "swagger-ui-express": "^4.1.5",
+    "uuid": "^8.3.2",
     "webpack-node-externals": "^2.5.2"
   },
   "devDependencies": {
