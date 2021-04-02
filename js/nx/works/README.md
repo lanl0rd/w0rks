@@ -193,3 +193,10 @@ npm i --save-dev --no-optional @types/cookie-parser
 npm i --save-dev --no-optional @types/express-session
 npm i --save-dev --no-optional @nestjs/testing
 npm i --save-dev --no-optional @types/socket.io
+
+
+
+todo:
+chokidar
+multicast-dns
+ssh2
